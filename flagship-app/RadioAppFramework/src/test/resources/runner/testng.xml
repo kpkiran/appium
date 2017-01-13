@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ABCRadio_Appium">
+	<test name="ABCRadioApp">
+		<classes>
+			<class name="com.abcradio.testcases.ABCRadio_HomeScreenTest">
+				<methods>
+				    <include name="validateHomeScreenTest" />
+<!-- 				    <include name="listenLaterTest" />
+				    <include name="liveRadioChannelTest" />
+				    <include name="featuredRadioChannelTest" />   
+				    <include name="exploreMenuTest" /> -->
+				    <include name="whatsOnNowTest" />
+				</methods>
+			</class>
+<!-- 			<class name="com.abcradio.testcases.ExploreMenuScreenTest">
+				<methods>
+				    <include name="validateExploreMenuScreenTest" />
+				    <include name="verifySubTabElementsPresenceTest" /> 
+				    <include name="clickByCategoryListItemTest" />
+				    <include name="clickAtoZListItemTest" />
+				    <include name="clickByStationListItemTest" />
+				    <include name="homeScreenNavigationTest" />
+				</methods>
+			</class> -->
+<!-- 			<class name="com.abcradio.testcases.PlayChannelScreenTest">
+				<methods>
+				   <include name="playScreenCalendarTest" />
+				   <include name="clickNextPrevLinkTest" />
+				</methods>
+			</class> -->
+	 		<class name="com.abcradio.testcases.WhatsOnNowScreenTest">
+				<methods>
+				   <include name="verifyElementsPresentTest" />
+				   <include name="backButtonTest" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
